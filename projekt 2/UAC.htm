@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset=windows-1250 >
+  
+<title>Kanał UAC</title>
+
+
+<meta name="description" content="" >
+  
+<meta name="keywords" content="hydroakustyka, kanał podwodny, komunikacja, efekt Dopplera, refrakcja">
+<meta name="author" content="Iwona Kochańska">
+
+
+</head>
+
+
+
+<body>
+
+  <h1> Specyfika kanału akustycznego</h1>
+
+<p>W zastosowaniach systemów UAC dąży się – analogicznie jak w systemach telekomunikacyjnych – do przesłania w jednostce czasu jak największej liczby danych przy możliwie małej stopie błędów. Jednakże osiągane w systemach UAC szybkości transmisji są znacznie mniejsze, niż w systemach komunikacji radiowej. Wynika to z niekorzystnych własności kanałów akustycznych, jakimi są
+akweny morskie i śródlądowe, a także – w pewnym stopniu – z technicznych możliwości generacji i odbioru fal akustycznych.</p>
+
+<p>Pomimo licznych ograniczeń UAC, nie istnieje alternatywa dla wykorzystywania fal akustycznych pod wodą. Decyduje o tym znacznie większe tłumienie fal elektromagnetycznych w wodzie w porównaniu z tłumieniem fal akustycznych, co ilustruje rysunek 1. Fale elektromagnetyczne z zakresu optycznego są co prawda słabiej tłumione niż fale radiowe, ale tylko w przejrzystej wodzie.
+Zamieszczony na rysunku 1 wykres pokazuje, że akceptowalna wielkość tłumienia fal akustycznych występuje na częstotliwościach nie wyższych niż 1 MHz, co ogranicza pasmo pracy systemów UAC do tej umownej granicy.</p>
+<p><center>
+<img width=285 height=185 src="UAC_pliki/image002.jpg" ><br>
+ Rys. 1. Tłumienie fal elektromagnetycznych i akustycznych w wodzie morskiej.
+</center></p>
+<p>Istnieją systemy korzystające z innych
+technik, niż komunikacja na falach akustycznych, w tym dwie standardowe metody
+gromadzenia danych oceanograficznych. Pierwsza z nich korzysta z połączeń
+kablowych, przez co jej stosowanie ograniczone jest do krótkich dystansów. Druga polega na rejestrowaniu danych przez sensory i odzyskiwaniu ich po zakończeniu zadania, jednak rozwiązanie takie ma istotne ograniczenia [1]. Proces odzyskiwania danych jest kosztowny a przetwarzanie zarejestrowanych danych nie odbywa się w czasie rzeczywistym. Nie ma możliwości zmiany konfiguracji urządzenia podczas rejestracji danych a ilość zgromadzonych danych ograniczona jest przez konfigurację sprzętową urządzenia rejestrującego. Z powodu tych ograniczeń większość sieci monitoring podwodnego korzysta z bezprzewodowych łączy akustycznych. Stosowanie metod komunikacji
+bezprzewodowej, korzystających z fal radiowych oraz optycznych, jest ograniczone z powodu silnego tłumienia fal elektromagnetycznych w wodzie [2][3]. Ewentualna komunikacja radiowa jest możliwa jedynie na bardzo niskich częstotliwościach (30Hz-300Hz), a do ich generowania potrzebne są nadajniki wysokiej mocy[4][5].</p>
+
+<h2>Prędkość propagacji</h2>
+
+<p>Prędkości propagacji fali akustycznej w wodzie mieszczą się w granicach 1450 m/s – 1545 m/s. Zmienność prędkości propagacji jest konsekwencją niejednorodności ośrodka wodnego, jaką obserwuje się w akwenach. Prędkość dźwięku na określonej głębokości zależy od temperatury, zasolenia oraz ciśnienia hydrostatycznego. Spośród tych czynników najmniej zmienne jest zasolenie. Największe zmiany prędkości propagacji fali akustycznej na głębokości kilkuset metrów powodują różnice temperatury. Poniżej głębokości 1000 m, gdzie temperatura wody jest stała, jedynym czynnikiem wpływającym na prędkość rozchodzenia się fali dźwiękowej jest ciśnienie hydrostatyczne. Różnice prędkości propagacji powodują ugięcie torów rozchodzenia się fali akustycznej. W kanale płytkim
+promienie dźwięku ulegają ugięciu w kierunku powierzchni wody i odbijają się od niej pod takim samym kątem, pod którym padały na tę powierzchnię. Na granicy ośrodków: wody i powietrza, fala odbija się niemal całkowicie, jednak ulega rozproszeniu na falach powierzchniowych. W rezultacie natężenie fali odbitej jest mniejsze od natężenia fali padającej. Fala odbita rozchodzi się dalej,
+ulegając kolejnym ugięciom i odbiciom. Powstaje w ten sposób kanał powierzchniowy. Natomiast w oceanach na głębokości około 1000 m powstają tzw. głębokowodne kanały akustyczne. </p>
+
+<h2>Tłumienie absorpcyjne</h2>
+
+<p>Kolejna różnica między kanałem podwodnym a kanałami radiokomunikacyjnymi dotyczy tłumienia absorpcyjnego. Pokazują to wykresy zamieszczone na rysunku 2 i 3. Tłumienie fal radiowych
+nie ma praktycznego znaczenia w szerokim paśmie częstotliwości używanych w systemach radiokomunikacyjnych, podczas gdy w systemach UAC ma dominujący wpływ zarówno na zasięgi systemów, jak i na funkcję przenoszenia kanału. Zasięg systemu UAC zdeterminowany jest głównie przez bezwzględną wartość tłumienia, a ta zależy do wyboru częstotliwości pracy systemu. Skalę problemu ilustruje następujący przykład: W systemie radiokomunikacyjnym tłumienie 0.01 dB/km występuje na częstotliwości około 20 GHz, a w systemie UAC na częstotliwości około 400 Hz. Nie można więc 
+oczekiwać od systemu UAC przepływności osiąganych w systemach radiokomunikacyjnych o podobnym zasięgu [7].</p>
+
+<center> <img width=279 height=218 src="UAC_pliki/image004.jpg"><br>
+Rys. 2. Tłumienie fal akustycznych w wodzie morskiej (S – zasolenie)<br><br>
+<img width=225 height=238 src="UAC_pliki/image006.jpg"><br>
+Rys. 3. Tłumienie fal radiowych w powietrzu<br><br>
+<img width=313 height=255 src="UAC_pliki/image008.jpg"><br>
+Rys. 4. Tłumienie absorpcyjne w kanale kablowym i podwodnym.</center>
+
+<p>Tłumienie fali akustycznej w morzu, wyrażone w decybelach, zmienia się bardzo szybko w funkcji częstotliwości, a mianowicie proporcjonalnie do kwadratu częstotliwości (z wyjątkiem pasm od 0.5 do 5 kHz i 200 do 1000 kHz, w których rośnie nieco wolniej). Podobną tendencję ma tłumienie w telekomunikacyjnych liniach transmisyjnych, jednakże wzrost tłumienia jest tu proporcjonalny do pierwiastka kwadratowego z częstotliwości, a więc jest znacznie wolniejszy niż w kanale podwodnym. W obu przypadkach, przy względnie dużej szerokości pasma pracy systemu obserwuje się wpływ tłumienia na widmo transmitowanych sygnałów. Ilustruje to wykres zamieszczony na rys. 4, na którym po­kazano spadek poziomu sygnału na skrajach pasma przenoszenia o szerokości oktawowej w funkcji zasięgu [7]. Nadmierna różnica tłumienia przy wzroście zasięgu, pojawiająca się ze szczególną ostrością w systemie UAC, ogranicza pasmo przenoszenia systemu i zmniejsza jego przepływność.</p>
+
+<h2>Straty transmisyjne</h2>
+
+<p> W kanałach podwodnych, w których nie występuje propagacja fali płaskiej, straty transmisyjne są zwiększone w skutek rozprzestrzeniania się dźwięku, czego skutkiem jest efekt nazywany w radiokomunikacji „tłumieniem wolnej przestrzeni” [9][10]. W zależności od akwenu propagacja dźwięku jest sferyczna lub quasi-cylindryczna. Związane jest to z geometrią kanału. Propagacja sferyczna występuje w systemach małych zasięgów pracujących w głębokich akwenach, zaś propagacja cylindryczna – w systemach dużych zasięgów i systemach pracujących w akwenach płytkich. Straty absorpcyjne rosną zarówno z odległością jak i z kwadratem częstotliwości. </p>
+
+<center>
+<img width=354 height=348 src="UAC_pliki/image010.jpg"><br>
+Rys. 5. Związek zasięgu systemów UAC z szerokością pasma oraz SNR na wyjściu odbiornika. </center>
+
+<p>Straty transmisyjne i szumy zależne od częstotliwości decydują o związku między zasięgiem, szerokością pasma a SNR na wejściu odbiornika. Zależność ta przedstawiona jest na rys. 5, który przedstawia zależność częstotliwościową SNR dla kilku różnych zasięgów (przyjęto założenie o sferycznym rozprzestrzenianiu się fali akustycznej oraz o szumie otoczenia, którego widmowa gęstość mocy rośnie o 20 <span class=SpellE>dB</span>/dekadę częstotliwości). Zależność ta ma wpływ na wybór częstotliwości nośnych dla pożądanego zasięgu systemu transmisji. Dodatkowo określa ona związek między dostępnym zasięgiem a pasmem częstotliwości. W rezultacie przepustowości systemów UAC, w których pasmo jest rzędu od 10 % do 60 % częstotliwości pracy, maleją ze wzrostem
+zasięgu. W systemach bardzo krótkiego zasięgu, w „czystych” kanałach pionowych osiągalna szerokość pasma jest rzędu setek kHz, a przepustowość rzędu setek kbit/s, natomiast w systemach dalekiego
+zasięgu szerokość pasma zwykle nie przekracza 1 kHz, a przepustowość – kilkuset, a nawet kilkudziesięciu bit/s [11].</p>
+
+<h2>Szumy</h2>
+<p>Anteny systemów komunikacji podwodnej odbierają oprócz sygnałów użytecznych także zakłócenia, nazywane ogólnie szumami podwodnymi. Wyróżnia się trzy rodzaje szumów podwodnych: szumy ośrodka wodnego, których źródłem są naturalne procesy fizyczne zachodzące w morzu oraz szumy odległych statków, szumy statków znajdujących się w otoczeniu systemu hydroakustycznego oraz szumy własne, generowane przez jednostkę, na której pracuje odbiornik. Szumy statków oraz szumy własne rzadko są uwzględniane na etapie projektowania systemu komunikacji podwodnej. Dużo większe znaczenie mają szumy ośrodka wodnego. Wśród nich szczególną uwagę poświęca się szumom falowania oraz szumom termicznym. Szumy podwodne mogą być traktowane jako realizacje gaussowskiego procesu stochastycznego, jednak są to szumy kolorowe, a więc ich widmowa gęstość mocy nie jest stała. Podczas projektowania systemów UAC przyjmuje się wstępne założenie, że widmowa gęstość mocy szumów ośrodka wodnego wynosi 20dB/dekadę, zarówno w płytkiej jak i głębokiej wodzie. Wyjątkiem są
+szumy o charakterze impulsowym, generowane przez organizmy żywe.</p>
+
+<p>W szerokopasmowych systemach UAC dominują szumy akustyczne środowiska wod­nego o dużym poziomie, silnych fluktuacjach oraz o zmiennym w funkcji częstotliwości poziomie widmowej gęstości mocy. </p>
+
+<h2>Odbicia</h2>
+<p>Zjawiskiem o silnym wpływie na warunki transmisji sygnałów zarówno w systemach podwodnych jak i radiokomunikacyjnych są odbicia od powierzchni granicznych kanału i obiektów leżących w ich sąsiedztwie. W przypadku podwodnych kanałów akustycznych mechanizm propagacji wielodrogowej jest różny w zależności od geometrii kanału. Zależy on również od zasięgu oraz częstotliwości pracy systemu UAC. Podwodne kanały akustyczne są wertykalne lub horyzontalne, w wodach płytkich lub głębokowodnych duktach oceanicznych, dalekiego (do 100 km, pasmo rzędu kilku kHz), średniego (do 10 km, pasmo rzędu 10 kHz) lub krótkiego zasięgu (do 1 km, pasmo powyżej 10 kHz).</p>
+
+<p>W zależności od lokalizacji systemu wyróżnia się dwa podstawowe mechanizmy formowania wielu ścieżek propagacji sygnału akustycznego. Pierwszy to odbicia od granic ośrodka (dna, powierzchni wody oraz obiektów znajdujących się w wodzie). Analogicznie jak w systemach radiowych, wynikiem odbić jest propagacja wielodrogowa, a jej konsekwencją – odbiór sygnałów bezpośrednich i opóźnionych. Dyspersję czasową obserwuje się w wielu kanałach komunikacyjnych, np. kablach telefonicznych, kanale satelitarnym, komórkowym, kanale radiowej komunikacji bezprzewodowej. W konsekwencji temat ten jest obszarem intensywnych badań. </p>
+
+<h2>Refrakcja</h2>
+
+<p>W kanale hydroakustycznym na zjawisko odbicia nakłada się drugi mechanizm propagacji wielodrogowej - silna refrakcja, której przyczyną są znaczne zmiany prędkości dźwięku w funkcji głębokości. Prędkość dźwięku zależy od temperatury, zasolenia oraz ciśnienia hydrostatycznego. Z kolei temperatura wody, która do głębokości 1000 m ma dominujący wpływ na prędkość propagacji,
+zależy od zmiennych warunków atmosferycznych. W wodach przypowierzchniowych, w których zmiany prędkości dźwięku są największe, występują istotne zmiany torów propagacji dźwięku, co powoduje znaczne fluktuacje zasięgu. W przypadku kanału „odbiciowego” propagacja wielodrogowa ma charakter dyskretny a odpowiedź impulsowa kanału jest quasi-dyskretna i „rzadka”. Z kolei odpowiedź impulsowa kanału refrakcyjnego ma charakter ciągły.</p>
+
+<p>W kanałach z propagacją wielodrogową sygnał docierający do odbiornika składa się z sygnału bezpośredniego oraz wielu opóźnionych i stłumionych sygnałów odbitych. Opóźnienia poszczególnych składowych wielodrożnych względem ścieżki głównej są różne i zależą od długości przebytej przez ulegające odbiciom fale. Sygnał odbierany w porównaniu z sygnałem nadanym jest znacznie rozciągnięty w czasie. Dyspersja czasowa powoduje interferencję międzysymbolową w odbieranym
+sygnale, której konsekwencją są zaniki selektywne częstotliwościowo. Dyspersja czasowa jest duża zwłaszcza w kanałach horyzontalnych dalekiego i średniego zasięgu, co znacznie ogranicza możliwości transmisyjne pracujących w tych kanałach systemów UAC. Podczas gdy w kanałach radiowych interferencje międzysymbolowe są rzędu kilku długości symboli transmitowanego sygnału, w
+podwodnym kanale horyzontalnym interferencje mogą rozciągać się na dziesiątki czy nawet setki symboli. Dla przykładu: w kanale średniego zasięgu dochodzi do rozproszenia w czasie do 10 <span class=SpellE>ms</span>, co odpowiada czasowi trwania 100 symboli dla prędkości 10&nbsp;000 symbol/s.</p>
+
+<h2>Ruch w kanale</h2>
+
+<p>Kanał komunikacji podwodnej często charakteryzuje się zmiennością odpowiedzi impulsowej w czasie. W przypadku płytkich kanałów horyzontalnych za niestacjonarność odpowiedzi impulsowej odpowiedzialny jest ruch powierzchni wody, od której odbija się fala akustyczna. W przypadku każdej składowej spektralnej transmitowanego sygnału, odbitego od falującej powierzchni wody, obserwuje się przesunięcie Dopplera. W konsekwencji w widmie odbieranego sygnału obserwuje się pewne rozmycie częstotliwości względem widma sygnału nadanego. W systemach komunikacyjnych z wieloma częstotliwościami nośnymi prowadzi to do interferencji między nośnymi (ICI - <span class=SpellE>intercarrier</span> <span class=SpellE>interference</span>). W kanałach głębokich zmienność czasowa odpowiedzi impulsowej związana jest z występowaniem fal wewnętrznych. Spośród kanałów wertykalnych również można wyróżnić te, których odpowiedź impulsowa jest niestacjonarna. Przykładem jest łącze akustyczne między stacją bazową na powierzchni wody a pojazdem AUV będącym w ruchu.</p>
+
+<p>Efekt Dopplera ma znacznie większy wpływ na jakość komunikacji w systemach UAC niż w przypadku systemów radiowych i w dużym stopniu wpływa na możliwości zwiększenia ich przepływności. Wynika to z małej prędkości propagacji fali akustycznej w wodzie, która wynosi około 1500 m/s, a więc jest 200 000 razy mniejsza, niż prędkość fali elektromagnetycznej. Skalę efektu Dopplera w systemach UAC tylko częściowo kompensuje niższa częstotliwość nośna tych systemów oraz niższa prędkość ruchu nadajnika czy odbiornika. W tabeli 2.1 porównano własności transmisyjne przykładowego kanału UAC oraz systemów radiowych: bezprzewodowej sieci lokalnej (WLAN) oraz standardu sieci komórkowej (LTE). Podczas gdy w kanale radiowym odchyłka dopplerowska jest rzędu 10<sup>-5</sup> do 10<sup>-6</sup> części szerokości pasma systemu, w akustycznym kanale podwodnym odchyłka dopplerowska
+odniesiona do szerokości pasma jest rzędu 10<sup>-3</sup></p>
+
+<center>
+
+Tabela 2.1 Właściwości transmisyjne kanału UAC oraz kanałów radiokomunikacyjnych.<br>
+
+
+<table border=1 cellspacing=0 cellpadding=0 width=597 >
+
+ <tr>
+  <td align=center>
+  <b>własności kanału</b>
+  </td>
+  <td align=center>
+<b>  WLAN</b>
+  </td>
+  <td align=center>
+<b>  LTE</b>
+  </td>
+  <td align=center>
+<b>  UAC</b>
+  </td>
+ </tr>
+
+ <tr >
+<td align=center>
+  częstotliwość nośna
+  </td>
+<td align=center>
+2.4 GHz
+  </td>
+<td align=center>
+2.5 GHz
+  </td>
+<td align=center>
+10 kHz
+  </td>
+</tr>	
+
+ <tr >
+<td align=center>
+  szerokość pasma
+  </td>
+<td align=center>
+17 MHz
+  </td>
+<td align=center>
+1.4 - 20 MHz
+  </td>
+<td align=center>
+2 kHz
+  </td>
+</tr>
+
+ <tr >
+<td align=center>
+prędkość ruchu
+  </td>
+<td align=center>
+2 m/s
+  </td>
+<td align=center>
+36 m/s
+  </td>
+<td align=center>
+2 m/s
+  </td>
+</tr>
+
+ <tr >
+<td align=center>
+odchyłka dopplerowska
+  </td>
+<td align=center>
+16 Hz 
+  </td>
+<td align=center>
+300 Hz 
+  </td>
+<td align=center>
+3 Hz 
+  </td>
+</tr>
+
+</table>
+
+</center>
+
+<p> Efekty dyspersji częstotliwościowej (wynikającej z efektu Dopplera) oraz czasowej (wynikającej z propagacji wielodrogowej oraz efektu Dopplera) są komplementarne w tym sensie, że kiedy prędkość bitowa transmisji rośnie, dyspersja czasowa obejmuje większa liczbę symboli modulacji powodując
+silniejszą interferencję międzysymbolową. Z kolei kiedy prędkość bitowa spada, zmienność kanału w czasie trwania pojedynczego symbolu rośnie, zatem rośnie również wpływ zjawiska Dopplera na jakość transmisji danych.</p>
+
+
+<h2>Bibliografia</h2>
+<ol>
+<li>I. Akyildiz, D. Pompili i T. Melodia, „Underwater Acoustic Sensor Networks: Research Challenges,” Networks, tom 3, nr 3, pp. 257-279, 2005.</li>
+<li>F. Hanson i S. Radic, „High Bandwidth Underwater Optical Communication,” Applied Optics, tom 47, nr 2, pp. 277-283, 2008.</li>
+<li>F. Schill, U. R. Zimmer i J. Trumpf, „Visible Optical Communication and Distance Sensing for Underwater Applications,” w Australian Conference Robotics and Automaton Association, 2004.</li>
+<li>M. Stojanovic, „Acoustic (Underwater) Communications,” w Encyclopedia of Telecommunications, John Wiley & Sons, 2003.</li>
+<li>L. Butler, „Underwater Radio Communication,” April 1987. http://www.qsl.net/vk5br/UwaterComms.htm.</li>
+<li>I. Tolstoy i C. Clay, "Ocean acoustics: theory and experiment in underwater sound," American Institute of Physics dla Acoustical Society of America, 1987.</li>
+<li>H. Lasota i I. Kochańska, „Analiza możliwości wykorzystania współczesnch metod transmisji danych w systemach łączności podwodenej,” Elektronika, tom XLVIII, nr 9, pp. 53-55, 2007.</li>
+<li>R. Salamon, "Systemy Hydrolokacyjne," Gdańsk: Gdańskie Towarzystwo Naukowe, 2006.</li>
+<li>R. Katulski, "Propagacja fal radiowych w telekomunikacji bezprzewodowej," Wydawnictwa Komunikacji i Łączności, 2009.</li>
+<li>D. Chaitanya, C. Sridevi i G. Rao, „Path loss analysis of underwater communication systems,” w Students' Technology Symposium (TechSym), 2011 IEEE, 2011.</li>
+<li>R. Istepanian i M. Stojanovic, „High Speed Digital Underwater Acoustic Communications,” w Underwater Acoustic Signal Processing and Telemetry Systems, Theory and Applications.</li>
+</ol>
+ 
+</body>
+
+</html>
